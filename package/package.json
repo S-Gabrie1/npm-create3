@@ -1,0 +1,24 @@
+{
+  "name": "package3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-Gabrie1/npm-create3.git"
+  },
+  "author": "Sargon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S-Gabrie1/npm-create3/issues"
+  },
+  "homepage": "https://github.com/S-Gabrie1/npm-create3#readme",
+  "dependencies": {
+    "package-2s": "^1.0.0",
+    "package1s": "^1.0.0"
+    
+  }
+}
