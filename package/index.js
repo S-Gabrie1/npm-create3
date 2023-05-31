@@ -1,9 +1,11 @@
 import lightMode from "package1s";
 
 function messageToggler() {
-    return (
-        lightMode ? "You are now in Light mode" : "You are now in Dark Mode"
-    );
+    if(lightMode === true ) {
+        return "You are now in light mode"
+    } else {
+        return "You are now in Dark mode"
+    }
 }
 
 export default messageToggler;
