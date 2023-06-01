@@ -1,11 +1,13 @@
-import lightMode from "package1s";
+const lightMode = require("package1s")
+const darkMode = require("package-2s")
 
 function messageToggler() {
-    if(lightMode === true ) {
-        return "You are now in light mode"
-    } else {
-        return "You are now in Dark mode"
+    let message = {
+        light: "You are now in Light Mode",
+        dark: "You are now in Dark Mode"
     }
+
+    return message
 }
 
-export default messageToggler;
+export default {messageToggler, lightMode, darkMode}
