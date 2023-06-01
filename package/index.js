@@ -10,4 +10,4 @@ function messageToggler() {
     return message
 }
 
-export default {messageToggler, lightMode, darkMode}
+module.exports = {messageToggler, lightMode, darkMode}
